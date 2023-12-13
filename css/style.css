@@ -1,9 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  color: #333;
+  box-sizing: border-box;
+}
+.Titulo-Principal{
+  color: #fff;
+  font-weight: bold;
+}
+.cor{
+  background-color: #0F0A15 !important;
+}
+span{
+  color: #fff;
+}
+
+.link-header{
+  color: #fff !important;
+}
+
+.link-header:hover{
+  color: #B62332 !important;
+}
+
+
+.section-principal{
+  border: 1px solid black;
+  height: 538px;
+  background-image: url("../img/fundo1.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
 #card{
   margin-top: 50px;
   background-color: #A25505;
   border: 1px solid var(--carcapivara);
   flex-direction: column;
-  width: 35%;
   padding: 10px;
   border-radius: 8px;
   align-items: center;
@@ -28,12 +62,15 @@
   font-size: 20px;
 }
 
-button{
-  width: 100%;
+#ButãoCadastro{
   background-color: green !important;
   border: 1px solid green !important;
   color: white !important;
   font-size: 18px !important;
+}
+.btn{
+  width: 100%;
+  align-items: center;
 }
 
 .CardForm{
@@ -45,19 +82,55 @@ button{
 .CardForm label, select{
   font-size: 12px;
   margin: 0;
-  
 }
+
+.todo{
+  width: 80%;
+  margin: 80px auto;
+  text-align: center;
+}
+.cor-text{
+  color: #fff;
+  font-weight: bold;
+}
+.novo-personagem {
+  color: green !important; /* Cor do texto para novos personagens */
+}
+/* Todo header */
+
+/* .todo-container{
+  justify-content: center;
+  align-items: center;
+  max-width: 850px;
+  max-height: 980px;
+  background-image: url("../img/fundo.jpg");
+  padding: 1.5rem;
+  border-radius: 15px;
+} */
+
+
+/* Aqui começa */
 @media only screen and (max-width: 1000px) {
   #card{
-    width: 50%;
+    width: 65%;
+  }
+  .section-principal{
+    height: 670px;
+    background-image: url("../img/fundo1.jpg");
+    background-position: center;
+    background-size: cover;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  #card{
-    width: 90%;
+  .section-principal{
+    height: 870px;
+    background-image: url("../img/fundo1.jpg");
+    background-position: center;
+    background-size: cover;
   }
-  #Equipe #btn-primary {
-    margin: 10px 0;
+
+  #card{
+    width: 80%;
   }
 }
