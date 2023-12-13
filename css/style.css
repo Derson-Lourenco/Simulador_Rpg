@@ -90,7 +90,7 @@ span{
   text-align: center;
 }
 .cor-text{
-  color: #fff;
+  color: #15160E;
   font-weight: bold;
 }
 .novo-personagem {
@@ -107,7 +107,6 @@ span{
   padding: 1.5rem;
   border-radius: 15px;
 } */
-
 
 /* Aqui começa */
 @media only screen and (max-width: 1000px) {
