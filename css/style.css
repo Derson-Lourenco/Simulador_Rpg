@@ -26,11 +26,13 @@ span{
 
 
 .section-principal{
+  width: 100%;
   border: 1px solid black;
-  height: 538px;
+  height: 100vh;
   background-image: url("../img/fundo1.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 
 }
 #card{
@@ -46,7 +48,7 @@ span{
 }
 
 #RowCard img{
-  background-color: black;
+  background-color: #0f0f0f;
   width: 100%;
   height: 100px;
   
@@ -89,12 +91,18 @@ span{
   margin: 80px auto;
   text-align: center;
 }
+
+
+/* Somente AQUI */
+
 .cor-text{
-  color: #15160E;
+  color: #fff;
   font-weight: bold;
 }
+
+/* =============================== */
 .novo-personagem {
-  color: green !important; /* Cor do texto para novos personagens */
+  color: rgb(167, 49, 108) !important; /* Cor do texto para novos personagens */
 }
 /* Todo header */
 
