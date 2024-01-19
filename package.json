@@ -1,0 +1,20 @@
+{
+  "name": "simulador_rpg",
+  "version": "1.0.0",
+  "description": "Simulador RPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=node"
+  },
+  "keywords": [],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.4",
+    "jest": "^27.5.1",
+    "jsdom": "^23.2.0"
+  },
+  "dependencies": {
+    "text-encoding": "^0.7.0"
+  }
+}

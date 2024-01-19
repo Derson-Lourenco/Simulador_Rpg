@@ -4,10 +4,21 @@
   font-family: Helvetica;
   color: #333;
   box-sizing: border-box;
+  text-decoration: none;   
+  list-style: none;  
+  scroll-behavior: smooth;
+}
+.teste01{
+  background-color: #0F0F0F !important;
+}
+.imgInicio{
+  width: 80%;
+  height: 290px !important;
 }
 .Titulo-Principal{
   color: #fff;
   font-weight: bold;
+  align-items: center;
 }
 .cor{
   background-color: #0F0A15 !important;
@@ -91,12 +102,22 @@ span{
   margin: 80px auto;
   text-align: center;
 }
-
+.tabela{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.tabela-Arena{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 40px;
+}
+.b{
+  border: 1px solid blue;
+}
 
 /* Somente AQUI */
 
 .cor-text{
-  color: #fff;
+  color: #fff !important;
   font-weight: bold;
 }
 
@@ -104,6 +125,27 @@ span{
 .novo-personagem {
   color: rgb(167, 49, 108) !important; /* Cor do texto para novos personagens */
 }
+
+#resultadoBatalha {
+  margin-top: 20px; /* Adicione margem superior para espaçamento */
+  padding: 10px; /* Adicione algum preenchimento para melhor aparência */
+}
+
+#resultadoBatalha div {
+  margin-bottom: 10px; /* Adicione margem inferior entre os elementos filho */
+}
+
+.cor-text {
+  color: blue; /* Adicione a cor desejada para o texto */
+}
+
+/* Adicione estilos específicos para o vencedor */
+#resultadoBatalha div.cor-text {
+  font-weight: bold; /* Faça o texto do vencedor em negrito */
+  color: green; /* Adicione a cor desejada para o texto do vencedor */
+}
+
+
 /* Todo header */
 
 /* .todo-container{

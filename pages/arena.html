@@ -63,45 +63,55 @@
 
   <section class="container-fluid section-principal">
     <div class="container">
-      <table class="table">
-        <thead>
-          <tr >
-            <th class="cor-text" scope="col">#</th>
-            <th class="cor-text" scope="col">Nome</th>
-            <th class="cor-text" scope="col">Raça</th>
-            <th class="cor-text" scope="col">Vida</th>
-            <th class="cor-text" scope="col">Classe</th>
-            <th class="cor-text" scope="col">Ataque</th>
-            <th class="cor-text" scope="col">Defesa</th>
-            <th class="cor-text" scope="col">Arena</th> 
-          </tr>
-        </thead>
-        <tbody class="cor-text">
-          <!-- Linhas da tabela serão adicionadas aqui -->
-        </tbody>
-      </table>
-    </div>
-
-    <div class="simulacao container">
-      <div class="row">
-        <div class="col-md-6">
+      <!-- arena.html -->
+      <div class="tabela">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="cor-text" scope="col">Id</th>
+              <th class="cor-text" scope="col">Nome</th>
+              <th class="cor-text" scope="col">Raça</th>
+              <th class="cor-text" scope="col">Vida</th>
+              <th class="cor-text" scope="col">Classe</th>
+              <th class="cor-text" scope="col">Ataque</th>
+              <th class="cor-text" scope="col">Defesa</th>
+              <th class="cor-text" scope="col">Arena</th>
+            </tr>
+          </thead>
+          <tbody class="cor-text">
+            <!-- Linhas da tabela serão adicionadas aqui -->
+          </tbody>
+        </table>
+      </div>
+      <div class="row ">
+        <div class="tabela-Arena col-md-5 justify-content-center">
           <!-- ListaArenaA -->
-          <h3>ListaArenaA</h3>
+          <h4 class="Titulo-Principal">Arena A</h4>
           <ul id="listaArenaA" class="list-group">
             <!-- Itens da ListaArenaA serão adicionados aqui -->
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="tabela-Arena col-md-5 justify-content-center">
           <!-- ListaArenaB -->
-          <h3>ListaArenaB</h3>
-          <ul id="listaArenaB" class="list-group" style="color: blanchedalmond;">
+          <h4 class="Titulo-Principal">Arena B</h4><br>
+          <ul id="listaArenaB" class="list-group">
             <!-- Itens da ListaArenaB serão adicionados aqui -->
           </ul>
         </div>
       </div>
-      <!-- Botão de simulação -->
-      <button id="btnSimulacao" class="btn btn-primary">Simulação</button>
+      <div class="row justify-content-center">
+        <div class="col-2">
+          <button id="btnSimularBatalha" class="btn btn-success">Simular Batalha</button>
+        </div>
+        <div class="col-2">
+          <button id="btnCancelar" class="btn btn-danger">Cancelar</button>
+        </div>
+      </div>
+
     </div>
+
+
+    <div id="resultadoBatalha"></div>
 
   </section>
   <script src="../api/script.js"></script>
